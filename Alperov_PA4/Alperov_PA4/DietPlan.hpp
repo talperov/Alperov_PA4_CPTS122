@@ -10,5 +10,43 @@ intake of calories for a day is stored in the goal calories.
 
 class DietPlan
 {
+private: 
+	int goal_calories; // Intended goal for calories
+	std::string plan_name; // This is the name of the plan 
+	std::string date; // This will be in MM/DD/YYYY
+
+
+
+
+public:
+
+
+	//constructors and deconstructors
+
+	DietPlan(); // Initialize the class
+	DietPlan(const std::string& name, int goal, const std::string& plan_date);
+	DietPlan(const DietPlan& other);
+	~DietPlan(); 
+
+
+	//getter functions
+	int getGoalCalories() const;
+	std::string	getPlanName() const;
+	std::string getDate() const;
+
+	//setter functions 
+	void setGoalCalories(int goal);
+	void setPlanName(const std::string& name);
+	void setDate(const std::string& plan_date);
+
+	//member functions
+	
+	void editGoal();
+
 
 };
+
+
+
+
+

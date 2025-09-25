@@ -13,7 +13,9 @@ With the well known knowledge I have on C programming this assingment should be 
 
 int main(void)
 {
-	std::cout << "TESTING IF THIS WORKS" << std::endl;
+	file_safe_check();
+
+
 	
 	return 0;
 }

@@ -133,6 +133,10 @@
     <ClInclude Include="ExercisePlan.hpp" />
     <ClInclude Include="FitnessAppWrapper.hpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="dietPlans.txt" />
+    <Text Include="exercisePlans.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
