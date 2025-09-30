@@ -13,7 +13,7 @@ With the well known knowledge I have on C programming this assingment should be 
 
 int main(void)
 {
-	file_safe_check();
+	file_safe_check(); 
 
 
 	

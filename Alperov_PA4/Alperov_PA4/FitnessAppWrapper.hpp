@@ -5,6 +5,14 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
+#include <fstream>
+
+using std::cout;
+using std::cin;
+using std::endl;
+using std::ostream;
+using std::string;
+using std::istream;
 
 /*
 The class FitnessAppWrapper is used to “wrap” the application. This class should

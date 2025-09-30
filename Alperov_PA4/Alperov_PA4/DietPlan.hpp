@@ -12,8 +12,8 @@ class DietPlan
 {
 private: 
 	int goal_calories; // Intended goal for calories
-	std::string plan_name; // This is the name of the plan 
-	std::string date; // This will be in MM/DD/YYYY
+	string plan_name; // This is the name of the plan 
+	string date; // This will be in MM/DD/YYYY
 
 
 
@@ -21,31 +21,32 @@ private:
 public:
 
 
-	//constructors and deconstructors
+	//constructors and copy constructors and deconstructors
 
 	DietPlan(); // Initialize the class
-	DietPlan(const std::string& name, int goal, const std::string& plan_date);
+	DietPlan(const string& name, int goal, const string& plan_date);
 	DietPlan(const DietPlan& other);
 	~DietPlan(); 
 
 
 	//getter functions
 	int getGoalCalories() const;
-	std::string	getPlanName() const;
-	std::string getDate() const;
+	string	getPlanName() const;
+	string getDate() const;
 
 	//setter functions 
 	void setGoalCalories(int goal);
-	void setPlanName(const std::string& name);
-	void setDate(const std::string& plan_date);
+	void setPlanName(const string& name);
+	void setDate(const string& plan_date);
 
 	//member functions
 	
 	void editGoal();
 
-
+	//overloading functions
+	friend ostream& operator<<(ostream& lhs, const DietPlan& rhs);
+	friend istream& operator>>(istream& lhs, DietPlan& rhs);
 };
-
 
 
 

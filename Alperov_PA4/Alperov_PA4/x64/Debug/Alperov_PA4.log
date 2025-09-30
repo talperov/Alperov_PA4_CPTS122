@@ -1,171 +1,168 @@
 ﻿  DietPlan.cpp
-  ExercisePlan.cpp
   FitnessAppWrapper.cpp
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(15,7): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'FitnessAppWrapper.cpp')
-      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\predefined C++ types (compiler internal)(357,11):
-      see declaration of 'std'
-  
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(15,14): error C3646: 'plan_name': unknown override specifier
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(15,9): error C3646: 'plan_name': unknown override specifier
   (compiling source file 'FitnessAppWrapper.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(15,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(15,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   (compiling source file 'FitnessAppWrapper.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(16,7): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'FitnessAppWrapper.cpp')
-      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\predefined C++ types (compiler internal)(357,11):
-      see declaration of 'std'
-  
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(16,14): error C3646: 'date': unknown override specifier
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(16,9): error C3646: 'date': unknown override specifier
   (compiling source file 'FitnessAppWrapper.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(16,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(16,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   (compiling source file 'FitnessAppWrapper.cpp')
-  
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(27,22): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'FitnessAppWrapper.cpp')
-      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\predefined C++ types (compiler internal)(357,11):
-      see declaration of 'std'
   
 C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(27,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   (compiling source file 'FitnessAppWrapper.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(27,28): error C2143: syntax error: missing ',' before '&'
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(27,23): error C2143: syntax error: missing ',' before '&'
   (compiling source file 'FitnessAppWrapper.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(34,7): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'FitnessAppWrapper.cpp')
-      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\predefined C++ types (compiler internal)(357,11):
-      see declaration of 'std'
-  
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(34,14): error C3646: 'getPlanName': unknown override specifier
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(34,9): error C3646: 'getPlanName': unknown override specifier
   (compiling source file 'FitnessAppWrapper.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(34,25): error C2059: syntax error: '('
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(34,20): error C2059: syntax error: '('
   (compiling source file 'FitnessAppWrapper.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(34,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(34,28): error C2238: unexpected token(s) preceding ';'
   (compiling source file 'FitnessAppWrapper.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(35,7): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'FitnessAppWrapper.cpp')
-      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\predefined C++ types (compiler internal)(357,11):
-      see declaration of 'std'
-  
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(35,14): error C3646: 'getDate': unknown override specifier
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(35,9): error C3646: 'getDate': unknown override specifier
   (compiling source file 'FitnessAppWrapper.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(35,21): error C2059: syntax error: '('
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(35,16): error C2059: syntax error: '('
   (compiling source file 'FitnessAppWrapper.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(35,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(35,24): error C2238: unexpected token(s) preceding ';'
   (compiling source file 'FitnessAppWrapper.cpp')
-  
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(39,30): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'FitnessAppWrapper.cpp')
-      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\predefined C++ types (compiler internal)(357,11):
-      see declaration of 'std'
   
 C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(39,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   (compiling source file 'FitnessAppWrapper.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(39,36): error C2143: syntax error: missing ',' before '&'
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(39,31): error C2143: syntax error: missing ',' before '&'
   (compiling source file 'FitnessAppWrapper.cpp')
-  
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(40,26): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'FitnessAppWrapper.cpp')
-      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\predefined C++ types (compiler internal)(357,11):
-      see declaration of 'std'
   
 C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(40,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   (compiling source file 'FitnessAppWrapper.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(40,32): error C2143: syntax error: missing ',' before '&'
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(40,27): error C2143: syntax error: missing ',' before '&'
   (compiling source file 'FitnessAppWrapper.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(47,16): error C2143: syntax error: missing ';' before '&'
+  (compiling source file 'FitnessAppWrapper.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(47,9): error C2433: 'ostream': 'friend' not permitted on data declarations
+  (compiling source file 'FitnessAppWrapper.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(47,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'FitnessAppWrapper.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(47,63): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'FitnessAppWrapper.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(48,16): error C2143: syntax error: missing ';' before '&'
+  (compiling source file 'FitnessAppWrapper.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(48,9): error C2433: 'istream': 'friend' not permitted on data declarations
+  (compiling source file 'FitnessAppWrapper.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(48,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'FitnessAppWrapper.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(48,57): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'FitnessAppWrapper.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.hpp(13,12): error C2874: using-declaration causes a multiple declaration of 'ostream'
+  (compiling source file 'FitnessAppWrapper.cpp')
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(47,9):
+      see declaration of 'ostream'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.hpp(15,12): error C2874: using-declaration causes a multiple declaration of 'istream'
+  (compiling source file 'FitnessAppWrapper.cpp')
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(48,9):
+      see declaration of 'istream'
   
   main.cpp
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(15,7): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'main.cpp')
-      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\predefined C++ types (compiler internal)(357,11):
-      see declaration of 'std'
-  
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(15,14): error C3646: 'plan_name': unknown override specifier
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(15,9): error C3646: 'plan_name': unknown override specifier
   (compiling source file 'main.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(15,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(15,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   (compiling source file 'main.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(16,7): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'main.cpp')
-      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\predefined C++ types (compiler internal)(357,11):
-      see declaration of 'std'
-  
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(16,14): error C3646: 'date': unknown override specifier
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(16,9): error C3646: 'date': unknown override specifier
   (compiling source file 'main.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(16,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(16,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   (compiling source file 'main.cpp')
-  
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(27,22): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'main.cpp')
-      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\predefined C++ types (compiler internal)(357,11):
-      see declaration of 'std'
   
 C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(27,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   (compiling source file 'main.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(27,28): error C2143: syntax error: missing ',' before '&'
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(27,23): error C2143: syntax error: missing ',' before '&'
   (compiling source file 'main.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(34,7): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'main.cpp')
-      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\predefined C++ types (compiler internal)(357,11):
-      see declaration of 'std'
-  
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(34,14): error C3646: 'getPlanName': unknown override specifier
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(34,9): error C3646: 'getPlanName': unknown override specifier
   (compiling source file 'main.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(34,25): error C2059: syntax error: '('
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(34,20): error C2059: syntax error: '('
   (compiling source file 'main.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(34,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(34,28): error C2238: unexpected token(s) preceding ';'
   (compiling source file 'main.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(35,7): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'main.cpp')
-      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\predefined C++ types (compiler internal)(357,11):
-      see declaration of 'std'
-  
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(35,14): error C3646: 'getDate': unknown override specifier
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(35,9): error C3646: 'getDate': unknown override specifier
   (compiling source file 'main.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(35,21): error C2059: syntax error: '('
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(35,16): error C2059: syntax error: '('
   (compiling source file 'main.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(35,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(35,24): error C2238: unexpected token(s) preceding ';'
   (compiling source file 'main.cpp')
-  
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(39,30): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'main.cpp')
-      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\predefined C++ types (compiler internal)(357,11):
-      see declaration of 'std'
   
 C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(39,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   (compiling source file 'main.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(39,36): error C2143: syntax error: missing ',' before '&'
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(39,31): error C2143: syntax error: missing ',' before '&'
   (compiling source file 'main.cpp')
-  
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(40,26): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'main.cpp')
-      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\predefined C++ types (compiler internal)(357,11):
-      see declaration of 'std'
   
 C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(40,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   (compiling source file 'main.cpp')
   
-C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(40,32): error C2143: syntax error: missing ',' before '&'
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(40,27): error C2143: syntax error: missing ',' before '&'
   (compiling source file 'main.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(47,16): error C2143: syntax error: missing ';' before '&'
+  (compiling source file 'main.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(47,9): error C2433: 'ostream': 'friend' not permitted on data declarations
+  (compiling source file 'main.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(47,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(47,63): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'main.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(48,16): error C2143: syntax error: missing ';' before '&'
+  (compiling source file 'main.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(48,9): error C2433: 'istream': 'friend' not permitted on data declarations
+  (compiling source file 'main.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(48,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(48,57): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'main.cpp')
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.hpp(13,12): error C2874: using-declaration causes a multiple declaration of 'ostream'
+  (compiling source file 'main.cpp')
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(47,9):
+      see declaration of 'ostream'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.hpp(15,12): error C2874: using-declaration causes a multiple declaration of 'istream'
+  (compiling source file 'main.cpp')
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\DietPlan.hpp(48,9):
+      see declaration of 'istream'
   
   Generating Code...
