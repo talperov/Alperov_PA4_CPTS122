@@ -4,15 +4,15 @@
 #include "ExercisePlan.hpp"
 #include <iostream>
 #include <string>
-#include <cstdlib>
 #include <fstream>
 
 using std::cout;
 using std::cin;
 using std::endl;
-using std::ostream;
 using std::string;
-using std::istream;
+using std::ignore;
+using std::getline;
+using std::fstream;
 
 /*
 The class FitnessAppWrapper is used to “wrap” the application. This class should
@@ -20,12 +20,18 @@ contain two lists (must be an array, vector, or linked list) of weekly (7 days) 
 one diet and one exercise weekly plan.
 */
 
-int file_safe_check(); // Checks if FILES opened successfully or not
-
 class FitnessAppWrapper
 {
+private: 
+    DietPlan dietplan[7]; // List for DietPlan Class
+    ExercisePlan exerciseplan[7]; // List for ExercisePlan Class
 
+public:
+    //constructors and copy constructors and deconstructors
+    FitnessAppWrapper(); // Initializing the class
 
+    //member functions
+    int displayMenu(int pick); 
 };
 
-
+int file_safe_check(); // Checks if FILES opened successfully or not

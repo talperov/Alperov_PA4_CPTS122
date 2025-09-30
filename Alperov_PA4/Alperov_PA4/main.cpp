@@ -8,13 +8,10 @@ Details: Prior to this assingment I have little knowledge of C++ but will do bes
 With the well known knowledge I have on C programming this assingment should be no issue.
 */
 #include "FitnessAppWrapper.hpp"
-#include "DietPlan.hpp"
-#include "ExercisePlan.hpp"
 
 int main(void)
 {
 	file_safe_check(); 
-
 
 	
 	return 0;

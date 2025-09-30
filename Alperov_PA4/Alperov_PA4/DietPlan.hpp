@@ -1,6 +1,7 @@
 #pragma once
-#include "FitnessAppWrapper.hpp"
-#include "ExercisePlan.hpp"
+#include <string>
+#include <iostream>
+
 /*
 The class DietPlan is used to represent a daily diet plan. The class will include
 three data members to represent your goal calories (an integer), plan name (a
@@ -11,42 +12,37 @@ intake of calories for a day is stored in the goal calories.
 class DietPlan
 {
 private: 
-	int goal_calories; // Intended goal for calories
-	string plan_name; // This is the name of the plan 
-	string date; // This will be in MM/DD/YYYY
-
-
-
+    int goal_calories; // Intended goal for calories
+    std::string plan_name; // This is the name of the plan 
+    std::string date; // This will be in MM/DD/YYYY
 
 public:
+    //constructors and copy constructors and deconstructors
+    DietPlan(); // Initialize the class
+    DietPlan(const std::string& name, int goal, const std::string& plan_date);
+    DietPlan(const DietPlan& copy);
+    ~DietPlan(); 
 
+    //getter functions
+    int getGoalCalories() const;
+    std::string getPlanName() const;
+    std::string getDate() const;
 
-	//constructors and copy constructors and deconstructors
+    //setter functions 
+    void setGoalCalories(int goal);
+    void setPlanName(const std::string& name);
+    void setDate(const std::string& plan_date);
 
-	DietPlan(); // Initialize the class
-	DietPlan(const string& name, int goal, const string& plan_date);
-	DietPlan(const DietPlan& other);
-	~DietPlan(); 
+    //member functions
+    void editGoal();
 
-
-	//getter functions
-	int getGoalCalories() const;
-	string	getPlanName() const;
-	string getDate() const;
-
-	//setter functions 
-	void setGoalCalories(int goal);
-	void setPlanName(const string& name);
-	void setDate(const string& plan_date);
-
-	//member functions
-	
-	void editGoal();
-
-	//overloading functions
-	friend ostream& operator<<(ostream& lhs, const DietPlan& rhs);
-	friend istream& operator>>(istream& lhs, DietPlan& rhs);
+    //overloading functions
+    friend std::ostream& operator<<(std::ostream& lhs, const DietPlan& rhs);
+    friend std::istream& operator>>(std::istream& lhs, DietPlan& rhs);
 };
+
+
+
 
 
 
