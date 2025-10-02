@@ -25,8 +25,8 @@ one diet and one exercise weekly plan.
 class FitnessAppWrapper
 {
 private: 
-    DietPlan dietplan[7]; // List for DietPlan Class
-    ExercisePlan exerciseplan[7]; // List for ExercisePlan Class
+    DietPlan dietplan[7];
+    ExercisePlan exerciseplan[7];
 
     //DAILY PLAN LOADER FOR DIET AND EXCERSICE
     void loadDailyPlan(ifstream &infile, DietPlan &plan);
@@ -45,8 +45,8 @@ private:
     void displayWeeklyPlan(const ExercisePlan planWeek[]) const;
 
     //STORE DAILY PLAN FOR DIET AND EXCERSICE&)const;
-    void storeDailyPlan(ofstream& file, const DietPlan& plan) const;
-    void storeDailyPlan(ofstream& file, const ExercisePlan& plan) const;
+    void storeDailyPlan(ofstream& infile, const DietPlan& plan) const;
+    void storeDailyPlan(ofstream& infile, const ExercisePlan& plan) const;
 
     //STORE WEEKLY PLAN FOR DIET AND EXERSICE
     void storeWeeklyPlan(ofstream &infile, const DietPlan planWeek[]) const;
@@ -59,7 +59,7 @@ public:
 
 
     //member functions
-    void runApp();
+            void runApp();
     int displayMenu() const; 
 };
 

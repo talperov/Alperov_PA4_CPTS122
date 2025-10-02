@@ -1,2 +1,137 @@
-﻿  ExercisePlan.cpp
-  Alperov_PA4.vcxproj -> C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\x64\Debug\Alperov_PA4.exe
+﻿  FitnessAppWrapper.cpp
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(198,13): error C2374: 'DietPlansStore': redefinition; multiple initialization
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(164,13):
+      see declaration of 'DietPlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(198,13): error C2086: 'std::ofstream DietPlansStore': redefinition
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(164,13):
+      see declaration of 'DietPlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(202,13): error C2374: 'ExercisePlansStore': redefinition; multiple initialization
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(170,13):
+      see declaration of 'ExercisePlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(202,13): error C2086: 'std::ofstream ExercisePlansStore': redefinition
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(170,13):
+      see declaration of 'ExercisePlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(152,3): error C2360: initialization of 'DietPlans' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(142,13):
+      see declaration of 'DietPlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(163,3): error C2360: initialization of 'ExercisePlans' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(153,13):
+      see declaration of 'ExercisePlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(163,3): error C2360: initialization of 'DietPlans' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(142,13):
+      see declaration of 'DietPlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(169,3): error C2360: initialization of 'DietPlansStore' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(164,13):
+      see declaration of 'DietPlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(169,3): error C2360: initialization of 'ExercisePlans' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(153,13):
+      see declaration of 'ExercisePlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(169,3): error C2360: initialization of 'DietPlans' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(142,13):
+      see declaration of 'DietPlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(175,3): error C2360: initialization of 'ExercisePlansStore' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(170,13):
+      see declaration of 'ExercisePlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(175,3): error C2360: initialization of 'DietPlansStore' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(164,13):
+      see declaration of 'DietPlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(175,3): error C2360: initialization of 'ExercisePlans' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(153,13):
+      see declaration of 'ExercisePlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(175,3): error C2360: initialization of 'DietPlans' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(142,13):
+      see declaration of 'DietPlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(178,3): error C2360: initialization of 'ExercisePlansStore' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(170,13):
+      see declaration of 'ExercisePlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(178,3): error C2360: initialization of 'DietPlansStore' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(164,13):
+      see declaration of 'DietPlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(178,3): error C2360: initialization of 'ExercisePlans' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(153,13):
+      see declaration of 'ExercisePlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(178,3): error C2360: initialization of 'DietPlans' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(142,13):
+      see declaration of 'DietPlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(181,3): error C2360: initialization of 'ExercisePlansStore' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(170,13):
+      see declaration of 'ExercisePlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(181,3): error C2360: initialization of 'DietPlansStore' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(164,13):
+      see declaration of 'DietPlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(181,3): error C2360: initialization of 'ExercisePlans' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(153,13):
+      see declaration of 'ExercisePlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(181,3): error C2360: initialization of 'DietPlans' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(142,13):
+      see declaration of 'DietPlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(189,3): error C2360: initialization of 'ExercisePlansStore' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(170,13):
+      see declaration of 'ExercisePlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(189,3): error C2360: initialization of 'DietPlansStore' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(164,13):
+      see declaration of 'DietPlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(189,3): error C2360: initialization of 'ExercisePlans' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(153,13):
+      see declaration of 'ExercisePlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(189,3): error C2360: initialization of 'DietPlans' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(142,13):
+      see declaration of 'DietPlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(197,3): error C2360: initialization of 'ExercisePlansStore' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(170,13):
+      see declaration of 'ExercisePlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(197,3): error C2360: initialization of 'DietPlansStore' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(164,13):
+      see declaration of 'DietPlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(197,3): error C2360: initialization of 'ExercisePlans' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(153,13):
+      see declaration of 'ExercisePlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(197,3): error C2360: initialization of 'DietPlans' is skipped by 'case' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(142,13):
+      see declaration of 'DietPlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(207,3): error C2361: initialization of 'ExercisePlansStore' is skipped by 'default' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(202,13):
+      see declaration of 'ExercisePlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(207,3): error C2361: initialization of 'DietPlansStore' is skipped by 'default' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(198,13):
+      see declaration of 'DietPlansStore'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(207,3): error C2361: initialization of 'ExercisePlans' is skipped by 'default' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(153,13):
+      see declaration of 'ExercisePlans'
+  
+C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(207,3): error C2361: initialization of 'DietPlans' is skipped by 'default' label
+      C:\Users\malpe\OneDrive\Desktop\CPTS122\Alperov_PA4\Alperov_PA4\FitnessAppWrapper.cpp(142,13):
+      see declaration of 'DietPlans'
+  

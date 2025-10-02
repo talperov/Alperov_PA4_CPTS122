@@ -10,9 +10,10 @@ With the well known knowledge I have on C programming this assingment should be 
 #include "FitnessAppWrapper.hpp"
 
 int main(void)
-{
+{	
+	FitnessAppWrapper app;
 	file_safe_check(); 
-
+	app.runApp();
 	
 	return 0;
 }
