@@ -138,18 +138,20 @@ void FitnessAppWrapper::runApp()
 		switch (pick)
 		{
 		case 1:
-
+		{
 			ifstream DietPlans("dietPlans.txt");
-			if (!DietPlans.is_open()) 
+			if (!DietPlans.is_open())
 			{
-			    cout << "Error opening dietPlans.txt" << endl;
-			    return;
+				cout << "Error opening dietPlans.txt" << endl;
+				return;
 			}
 			loadWeeklyPlan(DietPlans, dietplan);
 			DietPlans.close();
 			cout << "Weekly Plan Loaded Successfully" << endl;
 			break;
+		}
 		case 2:
+		{
 			ifstream ExercisePlans("exercisePlans.txt");
 			if (!ExercisePlans.is_open()) 
 			{
@@ -160,18 +162,23 @@ void FitnessAppWrapper::runApp()
 			ExercisePlans.close();
 			cout << "Weekly Plan Loaded Successfully" << endl;
 			break;
+		}
 		case 3:
+		{
 			ofstream DietPlansStore("dietPlans.txt");
 			storeWeeklyPlan(DietPlansStore, dietplan);
 			DietPlansStore.close();
 			cout << "Weekly Plan Saved Successfully" << endl;
 			break;
+		}
 		case 4: 
+		{
 			ofstream ExercisePlansStore("exercisePlans.txt");
 			storeWeeklyPlan(ExercisePlansStore, exerciseplan);
 			ExercisePlansStore.close();
 			cout << "Weekly Plan Saved Successfully" << endl;
 			break;
+		}
 		case 5:
 			displayWeeklyPlan(dietplan);
 			break;
@@ -195,6 +202,7 @@ void FitnessAppWrapper::runApp()
 			}
 			break;
 		case 9:
+		{
 			ofstream DietPlansStore("dietPlans.txt");
 			storeWeeklyPlan(DietPlansStore, dietplan);
 			DietPlansStore.close();
@@ -203,7 +211,7 @@ void FitnessAppWrapper::runApp()
 			storeWeeklyPlan(ExercisePlansStore, exerciseplan);
 			ExercisePlansStore.close();
 			return;
-
+		}
 		default:
 			cout << "Please Select another Choice." << endl;
 		}
@@ -211,7 +219,7 @@ void FitnessAppWrapper::runApp()
 }
 
 int file_safe_check()
-{
+{ 
 	FILE* fileDiet = fopen("dietPlans.txt", "r");
 	if (fileDiet == NULL)
 	{

@@ -1,0 +1,27 @@
+10000
+Morning Run
+10/01/2025
+
+12000
+Gym + Cardio
+10/02/2025
+
+8000
+Light Walk
+10/03/2025
+
+15000
+Leg Day
+10/04/2025
+
+9000
+Swim Session
+10/05/2025
+
+11000
+HIIT Workout
+10/06/2025
+
+10000
+Maintain
+10/07/2025

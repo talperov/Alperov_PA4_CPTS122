@@ -13,6 +13,8 @@ int main(void)
 {	
 	FitnessAppWrapper app;
 	file_safe_check(); 
+	system("pause");
+	system("cls");
 	app.runApp();
 	
 	return 0;
