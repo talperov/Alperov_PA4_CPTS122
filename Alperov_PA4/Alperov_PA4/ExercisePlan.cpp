@@ -1,6 +1,10 @@
 #include "ExercisePlan.hpp"
 #include <iostream>
 
+using std::string;
+using std::getline;
+using std::endl;
+
 ExercisePlan::ExercisePlan()
 {
     this->goal_steps = 0;
@@ -25,7 +29,7 @@ ExercisePlan::ExercisePlan(const ExercisePlan& copy)
 ExercisePlan::~ExercisePlan()
 {
     //DECONSTRUCTOR
-    std::cout << "ExercisePlan being Deconstructed" << std::endl;
+   // std::cout << "ExercisePlan being Deconstructed" << std::endl;
     //REMEMBER TO DELETE AFTER BUILD COMPLETE
 }
 
@@ -71,17 +75,17 @@ void ExercisePlan::editGoal()
 
 std::ostream& operator<<(std::ostream& lhs, const ExercisePlan& rhs)
 {
-    lhs << "Plan Name: " << rhs.getPlanName() << std::endl;
-    lhs << "Date: " << rhs.getDate() << std::endl;
-    lhs << "Goal for Steps: " << rhs.getGoalSteps() << std::endl;
-    return lhs; 
+    lhs << rhs.getPlanName() << endl;
+    lhs << rhs.getDate() << endl;
+    lhs << rhs.getGoalSteps() << endl;
+    return lhs;
 }
 
 std::istream& operator>>(std::istream& lhs, ExercisePlan& rhs)
 {
-    std::getline(lhs, rhs.plan_name);
+    getline(lhs, rhs.plan_name);
+    getline(lhs, rhs.date);
     lhs >> rhs.goal_steps;
     lhs.ignore();
-    std::getline(lhs, rhs.date);
     return lhs;
 }

@@ -1,6 +1,10 @@
 #include "DietPlan.hpp"
 #include <iostream>
 
+using std::string;
+using std::getline;
+
+
 DietPlan::DietPlan() 
 {
 	this->goal_calories = 0;
@@ -25,7 +29,7 @@ DietPlan::DietPlan(const DietPlan& copy)
 DietPlan::~DietPlan()
 {
 	//DECONSTRUCTOR
-	std::cout << "DietPlan being Deconstructed" << std::endl;
+	//std::cout << "DietPlan being Deconstructed" << std::endl;
 	//REMEMBER TO DELETE AFTER BUILD COMPLETE
 }
 
@@ -79,9 +83,21 @@ std::ostream& operator<<(std::ostream& lhs, const DietPlan& rhs)
 
 std::istream& operator>>(std::istream& lhs, DietPlan& rhs)
 {
-	std::getline(lhs, rhs.plan_name);      
-	lhs >> rhs.goal_calories;         
-	lhs.ignore();                     
-	std::getline(lhs, rhs.date);           
+	int goal;
+	string name;
+	string date;
+	string blank;
+
+	lhs >> goal;
+
+	lhs.ignore();
+	getline(lhs, name);
+	getline(lhs, date);
+	getline(lhs, blank);
+
+	rhs.goal_calories = goal;
+	rhs.plan_name = name;
+	rhs.date = date;
+
 	return lhs;
 }

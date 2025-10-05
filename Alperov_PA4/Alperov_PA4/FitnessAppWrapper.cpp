@@ -4,7 +4,7 @@ FitnessAppWrapper::FitnessAppWrapper(){}
 
 FitnessAppWrapper::~FitnessAppWrapper()
 {
-	cout << "DESTRUCTOR ACTIVATED" << endl;
+	//cout << "DESTRUCTOR ACTIVATED" << endl;
 }
 
 void FitnessAppWrapper::loadDailyPlan(ifstream& infile, DietPlan& plan)
@@ -112,12 +112,14 @@ int FitnessAppWrapper::displayMenu() const
 void FitnessAppWrapper::runApp()
 {
 	ifstream DietPlans("dietPlans.txt");
-	if (!DietPlans.is_open()) {
+	if (!DietPlans.is_open()) 
+	{
 	    cout << "Error opening dietPlans.txt" << endl;
 	    return;
 	}
 	ifstream ExercisePlans("exercisePlans.txt");
-	if (!ExercisePlans.is_open()) {
+	if (!ExercisePlans.is_open())
+	{
 	    cout << "Error opening exercisePlans.txt" << endl;
 	    return;
 	}
@@ -133,7 +135,7 @@ void FitnessAppWrapper::runApp()
 	while (true)
 	{
 		int pick = displayMenu();
-		int num = 0; // Declare num here, outside the switch
+		int num = 0;
 
 		switch (pick)
 		{
