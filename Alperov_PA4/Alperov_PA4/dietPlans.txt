@@ -1,27 +1,27 @@
-Plan Name: Dirty Bulk
-Date: 10/01/2025
-Goal for Calories: 3000
+Dirty Bulk
+10/01/2025
+3000
 
-Plan Name: Lean Food
-Date: 10/02/2025
-Goal for Calories: 1800
+Lean Food
+10/02/2025
+1800
 
-Plan Name: Vegan Diet
-Date: 10/03/2025
-Goal for Calories: 2200
+Vegan Diet
+10/03/2025
+2200
 
-Plan Name: High Protein
-Date: 10/04/2025
-Goal for Calories: 2100
+High Protein
+10/04/2025
+2100
 
-Plan Name: Low Carb
-Date: 10/05/2025
-Goal for Calories: 1900
+Low Carb
+10/05/2025
+1900
 
-Plan Name: Cutting
-Date: 10/06/2025
-Goal for Calories: 1400
+Cutting
+10/06/2025
+1400
 
-Plan Name: Maintain
-Date: 10/07/2025
-Goal for Calories: 2000
+Maintain
+10/07/2025
+2000

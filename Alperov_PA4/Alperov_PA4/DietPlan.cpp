@@ -3,6 +3,9 @@
 
 using std::string;
 using std::getline;
+using std::cout;
+using std::cin;
+using std::endl;
 
 
 DietPlan::DietPlan() 
@@ -65,39 +68,39 @@ void DietPlan::setDate(const std::string& plan_date)
 
 void DietPlan::editGoal()
 {
-	std::cout << "Edit Goal Calories: " << getGoalCalories() << std::endl;
+	cout << "Edit Goal Calories: " << getGoalCalories() << endl;
 	int newGoal = 0;
-	std::cout << "Enter new Goal for Calories: " << std::endl;
-	std::cin >> newGoal;
+	cout << "Enter new Goal for Calories: " << endl;
+	cin >> newGoal;
 	setGoalCalories(newGoal);
-	std::cout << "New Updated Goal" << *this << std::endl;
+	cout << "New Updated Goal" << *this << endl;
 }
 
 std::ostream& operator<<(std::ostream& lhs, const DietPlan& rhs)
 {
-	lhs << "Plan Name: " << rhs.getPlanName() << std::endl;
-	lhs << "Date: " << rhs.getDate() << std::endl;
-	lhs << "Goal for Calories: " << rhs.getGoalCalories() << std::endl;
+	lhs << rhs.getPlanName() << endl;
+	lhs << rhs.getDate() << endl;
+	lhs << rhs.getGoalCalories() << endl;
 	return lhs;
 }
 
 std::istream& operator>>(std::istream& lhs, DietPlan& rhs)
 {
-	int goal;
 	string name;
 	string date;
-	string blank;
+	string calories; 
 
-	lhs >> goal;
-
-	lhs.ignore();
 	getline(lhs, name);
+	if (name.empty())
+	{
+		getline(lhs, name); 
+	}
 	getline(lhs, date);
-	getline(lhs, blank);
+	getline(lhs, calories);
 
-	rhs.goal_calories = goal;
 	rhs.plan_name = name;
 	rhs.date = date;
+	rhs.goal_calories = std::stoi(calories);
 
 	return lhs;
 }

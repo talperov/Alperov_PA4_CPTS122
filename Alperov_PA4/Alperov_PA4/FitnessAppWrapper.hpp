@@ -28,27 +28,27 @@ private:
     DietPlan dietplan[7];
     ExercisePlan exerciseplan[7];
 
-    //DAILY PLAN LOADER FOR DIET AND EXCERSICE
+    //DAILY PLAN LOADER FOR DIET AND EXERCISE
     void loadDailyPlan(ifstream &infile, DietPlan &plan);
     void loadDailyPlan(ifstream& infile, ExercisePlan& plan);
 
-    //WEEKLY PLAN LOADER FOR DIET AND EXCERSICE
+    //WEEKLY PLAN LOADER FOR DIET AND EXERCISE
     void loadWeeklyPlan(ifstream &infile, DietPlan planWeek[]);
     void loadWeeklyPlan(ifstream &infile, ExercisePlan planWeek[]);
 
-    //DISPLAY DAILY PLAN LOADER FOR DIET AND EXCERSICE
+    //DISPLAY DAILY PLAN LOADER FOR DIET AND EXERCISE
     void displayDailyPlan(const DietPlan &plan) const;
     void displayDailyPlan(const ExercisePlan &plan)const;
 
-    //DISPLAY WEEKLY PLAN LOADER FOR DIET AND EXCERSICE
+    //DISPLAY WEEKLY PLAN LOADER FOR DIET AND EXERCISE
     void displayWeeklyPlan(const DietPlan planWeek[]) const;
     void displayWeeklyPlan(const ExercisePlan planWeek[]) const;
 
-    //STORE DAILY PLAN FOR DIET AND EXCERSICE&)const;
+    //STORE DAILY PLAN FOR DIET AND EXERCISE;
     void storeDailyPlan(ofstream& infile, const DietPlan& plan) const;
     void storeDailyPlan(ofstream& infile, const ExercisePlan& plan) const;
 
-    //STORE WEEKLY PLAN FOR DIET AND EXERSICE
+    //STORE WEEKLY PLAN FOR DIET AND EXERCISE
     void storeWeeklyPlan(ofstream &infile, const DietPlan planWeek[]) const;
     void storeWeeklyPlan(ofstream &infile, const ExercisePlan planWeek[]) const;
 
@@ -59,7 +59,7 @@ public:
 
 
     //member functions
-            void runApp();
+    void runApp();
     int displayMenu() const; 
 };
 

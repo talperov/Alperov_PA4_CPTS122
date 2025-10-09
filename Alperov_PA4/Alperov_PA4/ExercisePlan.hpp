@@ -37,7 +37,7 @@ public:
     void editGoal();
 
     //overloading functions
-    friend std::ostream& operator<<(std::ostream& lhs, const ExercisePlan& rhs);
-    friend std::istream& operator>>(std::istream& lhs, ExercisePlan& rhs);
+    friend std::ostream& operator<<(std::ostream& lhs, const ExercisePlan& rhs); //access private data in public
+    friend std::istream& operator>>(std::istream& lhs, ExercisePlan& rhs); //access private data in public
 };
 

@@ -3,6 +3,8 @@
 
 using std::string;
 using std::getline;
+using std::cout;
+using std::cin;
 using std::endl;
 
 ExercisePlan::ExercisePlan()
@@ -65,27 +67,45 @@ void ExercisePlan::setDate(const std::string& plan_date)
 
 void ExercisePlan::editGoal()
 {
-    std::cout << "Edit Goal Steps: " << getGoalSteps() << std::endl;
+    cout << "Edit Goal Steps: " << getGoalSteps() << endl;
     int newGoal = 0;
-    std::cout << "Enter new Goal for Steps: " << std::endl;
-    std::cin >> newGoal;
+    cout << "Enter new Goal for Steps: " << endl;
+    cin >> newGoal;
     setGoalSteps(newGoal);
-    std::cout << "New Updated Goal" << *this << std::endl;
+    cout << "New Updated Goal" << *this << endl;
 }
 
 std::ostream& operator<<(std::ostream& lhs, const ExercisePlan& rhs)
 {
-    lhs << rhs.getPlanName() << endl;
-    lhs << rhs.getDate() << endl;
-    lhs << rhs.getGoalSteps() << endl;
+    lhs << rhs.plan_name << endl;
+    lhs << rhs.date << endl;
+    lhs << rhs.goal_steps << endl << endl; 
     return lhs;
 }
 
 std::istream& operator>>(std::istream& lhs, ExercisePlan& rhs)
 {
-    getline(lhs, rhs.plan_name);
+    string stepsStr;
+    do 
+    {
+        getline(lhs, rhs.plan_name);
+    } while (rhs.plan_name.empty() && !lhs.eof());
+
     getline(lhs, rhs.date);
-    lhs >> rhs.goal_steps;
-    lhs.ignore();
+
+    do 
+    {
+        getline(lhs, stepsStr);
+    } while (stepsStr.empty() && !lhs.eof());
+
+    if (!stepsStr.empty())
+    {
+        rhs.goal_steps = stoi(stepsStr);
+    }
+
     return lhs;
 }
+
+
+
+

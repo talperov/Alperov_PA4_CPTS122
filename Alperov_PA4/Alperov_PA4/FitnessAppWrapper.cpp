@@ -188,17 +188,17 @@ void FitnessAppWrapper::runApp()
 			displayWeeklyPlan(exerciseplan);
 			break;
 		case 7:
-			cout << "Enter a day from 1-6 to edit diet Plan: " << endl;
+			cout << "Enter a day from 1-7 to edit diet Plan: " << endl;
 			cin >> num;
-			if (num >= 1 && num <= 6)
+			if (num >= 1 && num <= 7)
 			{
 				dietplan[num].editGoal();
 			}
 			break;
 		case 8:
-			cout << "Enter a day from 1-6 to edit Exercise Plan: " << endl;
+			cout << "Enter a day from 1-7 to edit Exercise Plan: " << endl;
 			cin >> num;
-			if (num >= 1 && num <= 6)
+			if (num >= 1 && num <= 7)
 			{
 				exerciseplan[num].editGoal();
 			}
@@ -206,12 +206,17 @@ void FitnessAppWrapper::runApp()
 		case 9:
 		{
 			ofstream DietPlansStore("dietPlans.txt");
+
 			storeWeeklyPlan(DietPlansStore, dietplan);
+
 			DietPlansStore.close();
 
 			ofstream ExercisePlansStore("exercisePlans.txt");
+
 			storeWeeklyPlan(ExercisePlansStore, exerciseplan);
+
 			ExercisePlansStore.close();
+
 			return;
 		}
 		default:
